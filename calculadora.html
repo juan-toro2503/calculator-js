@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/mathjs/lib/browser/math.js"></script>
+</head>
+
+<body>
+
+    <table>
+        <tr>
+
+            <td colspan="7" align="center"><input type="display" name="title" id="display"></td>
+
+
+        </tr>
+        <tr>
+            <td><input type="button" name="siete" onclick="mostrar(7)" value="7" class="numero"></td>
+            <td><input type="button" name="ocho" onclick="mostrar(8)" value="8" class="numero"></td>
+            <td><input type="button" name="nueve" onclick="mostrar(9)" value="9" class="numero"></td>
+            <td><input type="button" name="mas" onclick="mostrar('%')" value="%" class="numero"></td>
+            <td><input type="button" name="" onclick="mostrar('+')" value="+" class="numero"></td>
+        </tr>
+        <tr>
+            <td><input type="button" name="cuatro" onclick="mostrar(4)" value="4" class="numero"></td>
+            <td><input type="button" name="cinco" onclick="mostrar(5)" value="5" class="numero"></td>
+            <td><input type="button" name="seis" onclick="mostrar(6)" value="6" class="numero"></td>
+            <td><input type="button" name="menos" onclick="mostrar('(')" value="(" class="numero"></td>
+            <td><input type="button" name="" onclick="mostrar('-')" value="-" class="numero"></td>
+        </tr>
+        <tr>
+            <td><input type="button" name="uno" onclick="mostrar(1)" value="1" class="numero"></td>
+            <td><input type="button" name="dos" onclick="mostrar(2)" value="2" class="numero"></td>
+            <td><input type="button" name="tres" onclick="mostrar(3)" value="3" class="numero"></td>
+            <td><input type="button" name="" onclick="mostrar(')')" value=")" class="numero"></td>
+            <td><input type="button" name="" onclick="mostrar('*')" value="*" class="numero"></td>
+        </tr>
+        <tr>
+            <td><input type="button" name="cero" onclick="mostrar(0)" value="0" class="numero"></td>
+            <td><input type="button" name="punto" onclick="mostrar('.')" value="." class="numero"></td>
+            <td><input type="button" name="igual" onclick="igual()" value="=" class="numero"></td>
+            <td><input type="button" name="ac" onclick="limpiar()" value="AC" class="numero"></td>
+            <td>
+                <input type="button" name="" onclick="mostrar('/')" value="/" class=" numero "></td>
+        </tr>
+    </table>
+
+    <script src="calculadora.js "></script>
+</body>
+
+</html>
